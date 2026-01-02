@@ -151,7 +151,7 @@ input[type="submit"] {
   cursor: pointer;
   margin-top: 3em;
   border-radius: 0.2em;
-  width: 15em;
+  width: 20em;
   height: 3em;
 }
 
@@ -191,7 +191,7 @@ input[type="submit"]:hover {
   text-decoration: none;
   color: #127167;
   margin: 0;
-  width: 15em;
+  width: 18em;
   margin-right: -4.5em;
   text-align: center;
   font-weight: 700;
@@ -199,8 +199,8 @@ input[type="submit"]:hover {
 
 .footer-links p {
   width: 10em;
-  margin-left: -1.2em;
-  margin-right: -1.3em;
+  margin-left: -0.9em;
+  margin-right: -1em;
   cursor: pointer;
   font-weight: 600;
   text-align: center;
