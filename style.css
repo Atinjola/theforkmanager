@@ -21,7 +21,6 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 110vh;
   width: 58%;
   padding-left: 3em;
 }
@@ -60,9 +59,9 @@ h1 {
 }
 
 #manager-logo {
-  width: 28em;
+  width: 15em;
   height: auto;
-  margin-top: 6em;
+  margin-top: 3em;
 }
 
 #fork-logo {
@@ -72,13 +71,13 @@ h1 {
 form {
   display: flex;
   flex-direction: column;
-  width: 28em;
-  margin-top: 3em;
+  width: 20em;
+  margin-top: 2em;
 }
 
 .input-wrapper {
   position: relative;
-  margin-top: 5em;
+  margin-top: 3em;
 }
 
 .input-wrapper input {
@@ -113,7 +112,7 @@ form {
   top: 2.2em;
   transform: translateY(-50%);
   background: none;
-  width: 1.4em;
+  width: 1em;
   border: none;
   cursor: pointer;
 }
@@ -130,9 +129,8 @@ form {
 
 .links {
   position: relative;
-  margin-top: 1em;
   left: 8.5em;
-  margin-bottom: 1.2em;
+  margin-bottom: 1em;
   text-decoration: none;
   color: #006b6a;
 }
@@ -151,9 +149,9 @@ input[type="submit"] {
   padding: 1em;
   font-size: 1.2em;
   cursor: pointer;
-  margin-top: 5em;
+  margin-top: 3em;
   border-radius: 0.2em;
-  width: 25em;
+  width: 15em;
   height: 3em;
 }
 
@@ -178,7 +176,7 @@ input[type="submit"]:hover {
   align-items: center;
   text-align: center;
   font-size: 1.2em;
-  margin-top: 9.5em;
+  margin-top: 7em;
   margin-left: -6em;
 }
 
@@ -193,7 +191,7 @@ input[type="submit"]:hover {
   text-decoration: none;
   color: #127167;
   margin: 0;
-  width: 15em;
+  width: 10em;
   margin-right: -4.5em;
   text-align: center;
   font-weight: 700;
