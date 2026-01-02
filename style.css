@@ -55,8 +55,8 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-left: 10em;
-  width: 30em;
+  padding-left: 3em;
+  width: 20em;
 }
 
 #manager-logo {
