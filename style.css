@@ -21,7 +21,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 60vw;
+  width: 57vw;
   height: 100vh;
   padding-left: 3em;
 }
@@ -64,12 +64,12 @@ h1 {
   flex: 1;
   align-items: center;
   justify-content: center;
-  margin-top: 2em;
+  margin-top: 1.5em;
   margin-left: 8em;
 }
 
 #manager-logo {
-  width: 20em;
+  width: 18em;
   height: auto;
   margin-top: 0em;
   margin-left: 6em;
