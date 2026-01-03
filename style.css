@@ -15,13 +15,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: left;
-  justify-content: center;
   padding-left: 6em;
   background-image: url(assets/bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 55vw;
+  width: 54vw;
   height: 100vh;
   padding-left: 2em;
 }
