@@ -59,12 +59,20 @@ h1 {
   width: 20em;
 }
 
+.name {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+  margin-left: 8em;
+}
+
 #manager-logo {
-  width: 20em;
+  width: 25em;
   height: auto;
   margin-top: 0em;
   margin-left: 6em;
-  align-self: center;
 }
 
 #fork-logo {
