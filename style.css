@@ -201,7 +201,7 @@ input[type="submit"]:hover {
   justify-content: center;
   align-items: center;
   margin-bottom: 0.5em;
-  margin-left: 6em;
+  /*margin-left: 6em;*/
 }
 
 .footer-links a {
@@ -209,14 +209,14 @@ input[type="submit"]:hover {
   color: #127167;
   margin: 0;
   width: 20em;
-  margin-right: -4.5em;
+  margin-right: -5.5em;
   text-align: center;
   font-weight: 700;
 }
 
 .footer-links p {
   width: 10em;
-  margin-left: -0.9em;
+  margin-left: -1.3em;
   margin-right: -1em;
   cursor: pointer;
   font-weight: 600;
