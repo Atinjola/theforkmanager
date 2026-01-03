@@ -224,6 +224,7 @@ input[type="submit"]:hover {
 
 .slash {
   margin-left: 5em;
+  margin-right: -5em;
 }
 
 .footer-links p {
