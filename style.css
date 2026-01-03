@@ -56,7 +56,7 @@ h1 {
   align-items: center;
   justify-content: center;
   padding-left: 3em;
-  width: 20em;
+  width: 25em;
 }
 
 .name {
@@ -120,7 +120,7 @@ form {
 
 #toggle-password {
   position: absolute;
-  right: -0.8em;
+  right: -0.9em;
   top: 2.2em;
   transform: translateY(-50%);
   background: none;
@@ -163,7 +163,7 @@ input[type="submit"] {
   cursor: pointer;
   margin-top: 3em;
   border-radius: 0.2em;
-  width: 22em;
+  width: 25em;
   height: 3em;
 }
 
