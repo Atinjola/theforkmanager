@@ -62,7 +62,7 @@ h1 {
 #manager-logo {
   width: 15em;
   height: auto;
-  margin-top: 3em;
+  margin-top: 0em;
 }
 
 #fork-logo {
@@ -94,7 +94,7 @@ form {
 .input-wrapper label {
   position: absolute;
   top: 15px;
-  font-size: 1.4em;
+  font-size: 1.1em;
   font-weight: 600;
   pointer-events: none;
   transition: all 0.3s ease;
@@ -105,7 +105,7 @@ form {
 .input-wrapper input:focus ~ label,
 .input-wrapper input:not(:placeholder-shown) ~ label {
   top: -1.4em;
-  font-size: 1.2em;
+  font-size: 0.9em;
 }
 
 #toggle-password {
@@ -140,7 +140,7 @@ form {
 .links a {
   text-decoration: none;
   color: #006b6a;
-  font-size: 1.2em;
+  font-size: 0.9em;
   font-weight: 700;
 }
 
@@ -149,11 +149,11 @@ input[type="submit"] {
   color: white;
   border: none;
   padding: 1em;
-  font-size: 1.2em;
+  font-size: 0.9em;
   cursor: pointer;
   margin-top: 3em;
   border-radius: 0.2em;
-  width: 20em;
+  width: 22em;
   height: 3em;
 }
 
@@ -193,7 +193,7 @@ input[type="submit"]:hover {
   text-decoration: none;
   color: #127167;
   margin: 0;
-  width: 18em;
+  width: 12em;
   margin-right: -4.5em;
   text-align: center;
   font-weight: 700;
