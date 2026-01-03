@@ -219,6 +219,10 @@ input[type="submit"]:hover {
   margin-left: 0.3em;
 }
 
+.slash {
+  margin-left: 1.2em;
+}
+
 .footer-links p {
   width: 10em;
   cursor: pointer;
