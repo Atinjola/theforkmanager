@@ -209,9 +209,14 @@ input[type="submit"]:hover {
   color: #127167;
   margin: 0;
   width: 20em;
-  margin-right: -7em;
   text-align: center;
   font-weight: 700;
+}
+
+#fork {
+  width: 1.2em;
+  height: auto;
+  margin-left: 0.3em;
 }
 
 .footer-links p {
