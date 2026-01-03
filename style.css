@@ -60,10 +60,11 @@ h1 {
 }
 
 #manager-logo {
-  width: 15em;
+  width: 18em;
   height: auto;
   margin-top: 0em;
-  align-items: center;
+  margin-left: 3em;
+  align-self: center;
 }
 
 #fork-logo {
