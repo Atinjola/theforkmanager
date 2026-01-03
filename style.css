@@ -227,7 +227,6 @@ input[type="submit"]:hover {
 .footer-links p {
   width: 10em;
   cursor: pointer;
-  margin-left: 1em;
   font-weight: 600;
   text-align: center;
   font-style: normal;
