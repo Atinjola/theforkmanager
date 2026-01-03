@@ -194,6 +194,7 @@ input[type="submit"]:hover {
   font-size: 0.9em;
   margin-top: 7em;
   margin-left: 6em;
+  margin-bottom: -6em;
   width: 40em;
 }
 
