@@ -120,7 +120,7 @@ form {
 
 #toggle-password {
   position: absolute;
-  right: -1.2em;
+  right: -0.5em;
   top: 2.2em;
   transform: translateY(-50%);
   background: none;
@@ -141,7 +141,7 @@ form {
 
 .links {
   position: relative;
-  left: 6em;
+  left: 7.5em;
   margin-bottom: 1em;
   text-decoration: none;
   color: #006b6a;
@@ -163,7 +163,7 @@ input[type="submit"] {
   cursor: pointer;
   margin-top: 3em;
   border-radius: 0.2em;
-  width: 30em;
+  width: 27em;
   height: 3em;
 }
 
