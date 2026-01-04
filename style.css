@@ -212,7 +212,7 @@ input[type="submit"]:hover {
   margin: 0;
   width: 20em;
   /* Added to align with other elements */
-  margin-left: -3em;
+  margin-left: -2.9em;
   text-align: center;
   font-weight: 700;
 }
