@@ -71,8 +71,8 @@ h1 {
 #manager-logo {
   width: 16em;
   height: auto;
-  margin-top: 0em;
-  margin-left: -1em;
+  margin-top: -3em;
+  margin-left: 5em;
 }
 
 #fork-logo {
