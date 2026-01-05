@@ -277,6 +277,7 @@ input[type="submit"]:hover {
     height: auto;
     margin-bottom: 1em;
     margin-top: 4.8em;
+    margin-left: -4em;
   }
 
   .text {
@@ -295,6 +296,7 @@ input[type="submit"]:hover {
 
   input[type="submit"] {
     width: 19em;
+    margin-left: 1em;
   }
 
   .links {
@@ -308,6 +310,7 @@ input[type="submit"]:hover {
 
   .footer {
     margin-top: 10em;
+    margin-left: -4em;
   }
 
   #fork {
