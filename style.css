@@ -282,15 +282,19 @@ input[type="submit"]:hover {
   }
 
   form {
-    width: 20em;
+    width: 18em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   input[type="submit"] {
-    width: 14em;
+    width: 18em;
   }
 
   .links {
-    left: 2em;
+    left: 3em;
   }
 
   .signup-link {
