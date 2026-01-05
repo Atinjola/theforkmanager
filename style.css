@@ -290,11 +290,11 @@ input[type="submit"]:hover {
   }
 
   input[type="submit"] {
-    width: 18em;
+    width: 21em;
   }
 
   .links {
-    left: 3em;
+    left: 1em;
   }
 
   .signup-link {
