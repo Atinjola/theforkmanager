@@ -283,7 +283,7 @@ input[type="submit"]:hover {
   .text {
     flex-direction: column;
     gap: 0.5em;
-  }
+  } 
 
   form {
     width: 18em;
@@ -309,7 +309,7 @@ input[type="submit"]:hover {
   }
 
   .footer {
-    margin-top: 10em;
+    margin-top: 12em;
     margin-left: -4em;
   }
 
