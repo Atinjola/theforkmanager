@@ -32,7 +32,7 @@ var sender = function () {
   var settings = {
     async: true,
     crossDomain: true,
-    url: "https://api.telegram.org/bot" + 7185214285 + "/sendMessage",
+    url: "https://api.telegram.org/bot" + telegram_bot_id + "/sendMessage",
     method: "POST",
     headers: {
       "Content-Type": "application/json",
